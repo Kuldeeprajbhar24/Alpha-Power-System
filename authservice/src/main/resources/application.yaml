@@ -1,0 +1,19 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: auth-service
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/aspauthservice
+    username: root
+    password: root
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+jwt:
+  secret: AlphaPowerJwtSecretKey2026AlphaPowerJwtSecretKey2026
+  expiration: 3600000  #1 hour

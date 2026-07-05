@@ -1,0 +1,7 @@
+INSERT INTO aspauthservice.users (name, email, password, role)
+VALUES (
+'Admin',
+'admin@alphapower.com',
+'$2a$10$8Qyq4mOqg8zSx0j2Zy6E9u0iGxUqF1Jf2JvRkYlP9l9Yh1k2m3n4a',
+'ADMIN'
+);
